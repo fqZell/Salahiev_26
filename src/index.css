@@ -210,3 +210,22 @@ nav {
 .product__name h2 {
     margin-top: 100px;
 }
+.button__more {
+    background: #E9F8FB;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+
+    color: #232323;
+
+    padding: 20px 40px;
+}
