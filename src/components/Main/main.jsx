@@ -1,5 +1,6 @@
 import Menu from "../Menu/menu";
 import Product from "../Product/product";
+import img1 from "../../images/collection/img1.png";
 
 const Main = () => {
     return (
@@ -17,7 +18,7 @@ const Main = () => {
           <h5>бесплатная доставка<br></br>от 500 рублей</h5>
         </div>
       </div>
-      <img src="src/images/collection/img1.png" alt=""/>
+      <img src={img1} alt=""/>
     </div>
 
     <div className="main__cont-cards">

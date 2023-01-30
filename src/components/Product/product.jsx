@@ -1,5 +1,6 @@
 import {PRODUCTS} from "../data/products.jsx";
 import Item from "../Item/item.jsx";
+import product from "../../images/cards/product.png";
 
 const Product = () => {
 
@@ -8,7 +9,7 @@ const Product = () => {
 <div className="product__cards">
 
 <div className="product__card">
-    <img src="src/images/cards/product.png" alt="product" />
+    <img src={product} alt="product" />
 </div>
 
 {PRODUCTS.map((item) => <Item key={item.id} item={item} />)}

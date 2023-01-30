@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const FilterMenu = ({item}) => {
     const {id, src, name, type} = item;
 
