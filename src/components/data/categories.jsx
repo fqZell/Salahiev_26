@@ -2,37 +2,37 @@
 export const CATEGORIES = [
     {
         id: 1,
-        // src: <IconSalad/>,
+        src: 'src/images/collection/menu11.png',
         name: "Салаты",
         type: "salad"
     },
     {
         id: 2,
-        // src: <IconDrinks/>,
+        src: 'src/images/collection/menu2.png',
         name: "Напитки",
         type: "drinks"
     },
     {
         id: 3,
-        // src: <IconBurger/>,
+        src: 'src/images/collection/menu3.png',
         name: "Бургеры",
         type: "burger"
     },
     {
         id: 4,
-        // src: <IconSnacks/>,
+        src: 'src/images/collection/menu4.png',
         name: "Закуски",
         type: "snacks"
     },
     {
         id: 5,
-        // src: <IconPizza/>,
+        src: 'src/images/collection/menu5.png',
         name: "Пицца",
         type: "pizza"
     },
     {
         id: 6,
-        // src: <IconSale/>,
+        src: 'src/images/collection/menu6.png',
         name: "Акции",
         type: "stock"
     }

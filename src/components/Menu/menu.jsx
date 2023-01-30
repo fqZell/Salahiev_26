@@ -1,16 +1,19 @@
 import { CATEGORIES } from "../data/categories";
+import FilterMenu from "../FilterMenu/FilterMenu.jsx";
 
 console.log(CATEGORIES);
 
 const Menu = () => {
 
-  const name = "Салаты";
+  // const name = "Салаты";
 
     return (
         <>
 <div className="main__wrapper-cards">
 
-<div className="main__menu-cards">
+{CATEGORIES.map((item) => <FilterMenu key={item.id} item={item} />)}
+
+{/* <div className="main__menu-cards">
   <img src="src/images/collection/menu11.png" alt="menu1" />
   <h4>{name}</h4>
 </div>
@@ -38,7 +41,7 @@ const Menu = () => {
 <div className="main__menu-card">
   <img src="src/images/collection/menu6.png" alt="menu6" />
   <h3>Акции</h3>
-</div>
+</div> */}
 </div>
         </>
     )

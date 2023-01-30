@@ -181,7 +181,7 @@ nav {
     color: #000;
 }
 .main__menu-card:hover {
-    border: 2px solid #FE8C01;
+    background-color: #FE8C01;
     cursor: pointer;
 }
 .main__cont-product {
