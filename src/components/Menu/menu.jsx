@@ -1,8 +1,10 @@
-import { CAT } from "../data/categories";
+import { CATEGORIES } from "../data/categories";
+
+console.log(CATEGORIES);
 
 const Menu = () => {
 
-    // const {id, name, type} = item;
+  const name = "Салаты";
 
     return (
         <>
@@ -10,7 +12,7 @@ const Menu = () => {
 
 <div className="main__menu-cards">
   <img src="src/images/collection/menu11.png" alt="menu1" />
-  <h4>{CAT[name]}</h4>
+  <h4>{name}</h4>
 </div>
 
 <div className="main__menu-card">
