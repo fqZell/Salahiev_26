@@ -1,4 +1,4 @@
-import {PRODUCTS} from "../Data/products.jsx";
+import {PRODUCTS} from "../data/products.jsx";
 import Item from "../Item/item.jsx";
 
 const Product = () => {
